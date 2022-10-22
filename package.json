@@ -1,0 +1,12 @@
+{
+  "name": "@example/root",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kzok/learn-npm-workspaces.git"
+  },
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "start": "npm run -w @example/app start"
+  }
+}
