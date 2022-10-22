@@ -1,7 +1,9 @@
 {
   "name": "@example/app",
   "version": "0.0.0",
-  "scripts": {},
+  "scripts": {
+    "start": "node ./src/main.mjs"
+  },
   "dependencies": {
     "@example/greet": "^0.0.0"
   }
