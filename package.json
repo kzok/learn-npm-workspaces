@@ -5,11 +5,8 @@
     "type": "git",
     "url": "git+https://github.com/kzok/learn-npm-workspaces.git"
   },
+  "workspaces": ["packages/*"],
   "scripts": {
     "start": "npm run -w @example/app start"
-  },
-  "workspaces": [
-    "packages/greet",
-    "packages/app"
-  ]
+  }
 }
