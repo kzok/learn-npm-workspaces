@@ -5,5 +5,8 @@
     "type": "git",
     "url": "git+https://github.com/kzok/learn-npm-workspaces.git"
   },
-  "scripts": {}
+  "scripts": {},
+  "workspaces": [
+    "packages/greet"
+  ]
 }
