@@ -4,7 +4,8 @@
   - [x] setup @example/root
   - [x] setup @example/greet
   - [x] setup @example/app
-- [ ] replace JavaScript with TypeScript
+- [x] replace JavaScript with TypeScript
+- [ ] Install Next.JS 
 - [ ] setup CI
 - [ ] setup Pretier
 - [ ] setup Jest
