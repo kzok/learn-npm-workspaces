@@ -1,0 +1,15 @@
+{
+  "include": ["**/*.ts", "**/*.tsx"],
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "incremental": true,
+    "tsBuildInfoFile": "./tmp/.tsbuildinfo",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@example/greet/*": ["../greet/src/*"],
+      "*": ["node_modules/*"],
+    }
+  }
+}
