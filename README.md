@@ -1,6 +1,6 @@
 # learn npm workspaces
 
-## Memo
+## Commands
 
 ### create workspace
 
@@ -14,14 +14,10 @@ npm init -w (@<scope>/)<workspace>
 npm i -w (@<scope>/)<workspace> <package>
 ```
 
-## ToDo
+## Memo
 
-- [x] setup npm workspaces
-  - [x] setup @example/root
-  - [x] setup @example/greet
-  - [x] setup @example/app
-- [ ] replace JavaScript with TypeScript
-- [ ] setup CI
-- [ ] setup Pretier
-- [ ] setup Jest
-- [ ] setup Eslint
+### TypeScript
+
+- TypeScript project reference is difficult to work with eslint and jest.
+- Dependencies among local workspaces doesn't work if you want to directly import ts file from other local workspaces.
+  - Using `paths` of `tsconfig.json` is an option to import ts file from them.
