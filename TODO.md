@@ -5,7 +5,8 @@
   - [x] setup @example/greet
   - [x] setup @example/app
 - [x] replace JavaScript with TypeScript
-- [ ] Install Next.JS 
+- [ ] create webpack app
+- [ ] create next.js app
 - [ ] setup CI
 - [ ] setup Pretier
 - [ ] setup Jest
