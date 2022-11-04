@@ -8,7 +8,7 @@
 - [x] create webpack app
 - [x] create webpack4 app
 - [ ] create next.js app
-- [ ] setup CI
+- [x] setup CI
 - [ ] setup Pretier
 - [ ] setup Jest
 - [ ] setup Eslint
