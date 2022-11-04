@@ -3,6 +3,7 @@
   "name": "@example/next",
   "version": "0.0.0",
   "dependencies": {
+    "@example/greet": "^0.0.0",
     "next": "^13.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
