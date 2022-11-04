@@ -2,5 +2,9 @@
   "private": true,
   "name": "@example/next",
   "version": "0.0.0",
-  "devDependencies": {}
+  "dependencies": {
+    "next": "^13.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
