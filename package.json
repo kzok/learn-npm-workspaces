@@ -6,6 +6,7 @@
     "url": "git+https://github.com/kzok/learn-npm-workspaces.git"
   },
   "workspaces": [
+    "apps/*",
     "packages/*"
   ],
   "scripts": {
