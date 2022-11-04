@@ -1,8 +1,6 @@
 {
-  "include": [
-    "**/*.ts",
-    "**/*.tsx"
-  ],
+  "include": ["**/*.ts","**/*.tsx"],
+  "exclude": ["**/node_modules"],
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "incremental": true,
@@ -11,9 +9,7 @@
     "noEmit": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "./src/*"
-      ]
+      "@/*": ["./src/*"]
     }
   }
 }
