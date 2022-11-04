@@ -42,3 +42,4 @@ jobs:
         key: ${{ runner.os }}-node_modules-${{ hashFiles('**/package-lock.json') }}
     - run: npm run typecheck -w @example/webpack
     - run: npm run typecheck -w @example/webpack4
+    - run: npm run typecheck -w @example/next 
