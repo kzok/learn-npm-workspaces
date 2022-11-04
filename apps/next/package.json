@@ -12,9 +12,7 @@
     "@types/react-dom": "^18.0.8"
   },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "rm -fr ./.next/ && next dev",
     "typecheck": "tsc"
   }
 }
