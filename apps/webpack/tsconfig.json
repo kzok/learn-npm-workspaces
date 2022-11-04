@@ -4,9 +4,5 @@
   "compilerOptions": {
     "incremental": true,
     "tsBuildInfoFile": "./tmp/.tsbuildinfo",
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"],
-    }
   }
 }
