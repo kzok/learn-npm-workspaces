@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "@example/root",
   "version": "0.0.0",
   "repository": {
