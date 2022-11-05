@@ -17,13 +17,16 @@
     "fmt": "run-s fmt:prettier fmt:eslint"
   },
   "devDependencies": {
+    "@types/jest": "^29.2.2",
     "@types/node": "^16.18.3",
     "@typescript-eslint/eslint-plugin": "^5.42.0",
     "@typescript-eslint/parser": "^5.42.0",
     "eslint": "^8.26.0",
     "eslint-config-prettier": "^8.5.0",
+    "jest": "^29.2.2",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.7.1",
+    "ts-jest": "^29.0.3",
     "typescript": "^4.8.4"
   }
 }
