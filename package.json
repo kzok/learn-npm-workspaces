@@ -13,7 +13,8 @@
   "scripts": {
     "start": "npm run -w @example/app start",
     "fmt:prettier": "prettier --write .",
-    "fmt": "run-s fmt:prettier"
+    "fmt:eslint": "eslint --fix  --cache --cache-location ./tmp/eslint .",
+    "fmt": "run-s fmt:prettier fmt:eslint"
   },
   "dependencies": {
     "@example/greet": "*"
