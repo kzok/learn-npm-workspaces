@@ -16,9 +16,6 @@
     "fmt:eslint": "eslint --fix  --cache --cache-location ./tmp/eslint .",
     "fmt": "run-s fmt:prettier fmt:eslint"
   },
-  "dependencies": {
-    "@example/greet": "*"
-  },
   "devDependencies": {
     "@types/node": "^16.18.3",
     "@typescript-eslint/eslint-plugin": "^5.42.0",
