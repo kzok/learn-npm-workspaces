@@ -1,3 +1,3 @@
-import {greet} from "@example/greet";
+import { greet } from "@example/greet";
 
 console.log(greet("world"));
