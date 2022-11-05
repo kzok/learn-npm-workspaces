@@ -11,7 +11,9 @@
     "packages/*"
   ],
   "scripts": {
-    "start": "npm run -w @example/app start"
+    "start": "npm run -w @example/app start",
+    "fmt:prettier": "prettier --write .",
+    "fmt": "run-s fmt:prettier"
   },
   "dependencies": {
     "@example/greet": "*"
