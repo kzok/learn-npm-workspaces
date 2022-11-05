@@ -12,6 +12,7 @@
   ],
   "scripts": {
     "start": "npm run -w @example/app start",
+    "test": "jest",
     "fmt:prettier": "prettier --write .",
     "fmt:eslint": "eslint --fix  --cache --cache-location ./tmp/eslint .",
     "fmt": "run-s fmt:prettier fmt:eslint"
