@@ -7,8 +7,8 @@
 - [x] replace JavaScript with TypeScript
 - [x] create webpack app
 - [x] create webpack4 app
-- [ ] create next.js app
+- [x] create next.js app
 - [x] setup CI
-- [ ] setup Pretier
-- [ ] setup Jest
+- [x] setup Pretier
 - [ ] setup Eslint
+- [ ] setup Jest
