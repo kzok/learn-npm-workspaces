@@ -1,7 +1,6 @@
 {
   "private": true,
   "name": "@example/webpack",
-  "version": "0.0.0",
   "scripts": {
     "typecheck": "tsc --noEmit",
     "build": "webpack",

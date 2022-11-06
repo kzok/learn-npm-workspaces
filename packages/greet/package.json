@@ -1,6 +1,4 @@
 {
   "private": true,
-  "name": "@example/greet",
-  "version": "0.0.0",
-  "scripts": {}
+  "name": "@example/greet"
 }
