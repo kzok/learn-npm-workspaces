@@ -13,9 +13,3 @@ npm init -w (@<scope>/)<workspace>
 ```bash
 npm i -w (@<scope>/)<workspace> <package>
 ```
-
-## Memo
-
-### TypeScript
-
-- TypeScript project reference is difficult to work with eslint and jest.
