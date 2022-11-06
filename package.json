@@ -10,7 +10,7 @@
     "packages/*"
   ],
   "scripts": {
-    "start": "npm run -w @example/app start",
+    "dev": "npm run -w @example/next dev",
     "test": "jest",
     "fmt:prettier": "prettier --write .",
     "fmt:eslint": "eslint --fix  --cache --cache-location ./tmp/eslint .",
